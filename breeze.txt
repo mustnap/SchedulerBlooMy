@@ -1,0 +1,10 @@
+1163  git checkout -b init-breeze
+ 1164  sail up -d
+ 1165  sail composer require laravel/breeze --dev
+ 1166  sail  artisan breeze:install
+ 1167  sail npm install 
+ 1168  sail npm run dev
+ 1169  sail artisan migrate
+ 1170  git status
+ 1171  history
+
