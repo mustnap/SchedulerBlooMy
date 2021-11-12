@@ -1,0 +1,16 @@
+ 1134  git remote add origin git@github.com:mustnap/SchedulerBlooMy.git
+ 1135  git push origin master
+ 1136  git push origin init-project 
+ 1137  git chekcout -b "init-fortify"
+ 1138  git checkcout -b "init-fortify"
+ 1139  git checkout -b "init-fortify"
+ 1140  sail up -d
+ 1141  sail composer require laravel/fortify
+ 1142  sail artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
+ 1143  sail artisan migrate:refresh
+ 1144  git status
+ 1145  sail npm install bootstrap
+ 1146  sail npm install sass sass-loader --save-dev
+ 1147  sail npm run dev
+ 1148  history
+
